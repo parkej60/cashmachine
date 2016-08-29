@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2491C9401D738AD1001FE7D2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2491C93F1D738AD1001FE7D2 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2491C93A1D738AD1001FE7D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2491C93C1D738AD1001FE7D2 /* cashmachine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cashmachine; sourceTree = BUILT_PRODUCTS_DIR; };
+		2491C93F1D738AD1001FE7D2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2491C94C1D73DA07001FE7D2 /* cashmachinetests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cashmachinetests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2491C9391D738AD1001FE7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2491C9491D73DA07001FE7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2491C9331D738AD1001FE7D2 = {
+			isa = PBXGroup;
+			children = (
+				2491C93E1D738AD1001FE7D2 /* cashmachine */,
+				2491C93D1D738AD1001FE7D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2491C93D1D738AD1001FE7D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2491C93C1D738AD1001FE7D2 /* cashmachine */,
+				2491C94C1D73DA07001FE7D2 /* cashmachinetests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2491C93E1D738AD1001FE7D2 /* cashmachine */ = {
+			isa = PBXGroup;
+			children = (
+				2491C93F1D738AD1001FE7D2 /* main.swift */,
+			);
+			path = cashmachine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2491C93B1D738AD1001FE7D2 /* cashmachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2491C9431D738AD1001FE7D2 /* Build configuration list for PBXNativeTarget "cashmachine" */;
+			buildPhases = (
+				2491C9381D738AD1001FE7D2 /* Sources */,
+				2491C9391D738AD1001FE7D2 /* Frameworks */,
+				2491C93A1D738AD1001FE7D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cashmachine;
+			productName = cashmachine;
+			productReference = 2491C93C1D738AD1001FE7D2 /* cashmachine */;
+			productType = "com.apple.product-type.tool";
+		};
+		2491C94B1D73DA07001FE7D2 /* cashmachinetests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2491C9511D73DA07001FE7D2 /* Build configuration list for PBXNativeTarget "cashmachinetests" */;
+			buildPhases = (
+				2491C9481D73DA07001FE7D2 /* Sources */,
+				2491C9491D73DA07001FE7D2 /* Frameworks */,
+				2491C94A1D73DA07001FE7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cashmachinetests;
+			productName = cashmachinetests;
+			productReference = 2491C94C1D73DA07001FE7D2 /* cashmachinetests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2491C9341D738AD1001FE7D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Parker;
+				TargetAttributes = {
+					2491C93B1D738AD1001FE7D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2491C94B1D73DA07001FE7D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2491C9371D738AD1001FE7D2 /* Build configuration list for PBXProject "cashmachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2491C9331D738AD1001FE7D2;
+			productRefGroup = 2491C93D1D738AD1001FE7D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2491C93B1D738AD1001FE7D2 /* cashmachine */,
+				2491C94B1D73DA07001FE7D2 /* cashmachinetests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2491C94A1D73DA07001FE7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2491C9381D738AD1001FE7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2491C9401D738AD1001FE7D2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2491C9481D73DA07001FE7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2491C9411D738AD1001FE7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2491C9421D738AD1001FE7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2491C9441D738AD1001FE7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2491C9451D738AD1001FE7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2491C9521D73DA07001FE7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = cashmachinetests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.parker.cashmachine.cashmachinetests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2491C9531D73DA07001FE7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = cashmachinetests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.parker.cashmachine.cashmachinetests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2491C9371D738AD1001FE7D2 /* Build configuration list for PBXProject "cashmachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2491C9411D738AD1001FE7D2 /* Debug */,
+				2491C9421D738AD1001FE7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2491C9431D738AD1001FE7D2 /* Build configuration list for PBXNativeTarget "cashmachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2491C9441D738AD1001FE7D2 /* Debug */,
+				2491C9451D738AD1001FE7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2491C9511D73DA07001FE7D2 /* Build configuration list for PBXNativeTarget "cashmachinetests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2491C9521D73DA07001FE7D2 /* Debug */,
+				2491C9531D73DA07001FE7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2491C9341D738AD1001FE7D2 /* Project object */;
+}
